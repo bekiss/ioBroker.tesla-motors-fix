@@ -274,7 +274,7 @@ class Teslamotors extends utils.Adapter {
               role: 'state',
             },
             { command: 'set_scheduled_departure', name: 'Change default json to modify', type: 'json', role: 'state' },
-            { command: 'set_charging_amps-charging_amps', type: 'number', role: 'level' },
+            { command: 'set_charging_amps', type: 'number', role: 'level' },
             { command: 'remote_seat_heater_request-0', type: 'number', role: 'level' },
             { command: 'remote_seat_heater_request-1', type: 'number', role: 'level' },
             { command: 'remote_seat_heater_request-2', type: 'number', role: 'level' },
